@@ -88,7 +88,6 @@ def comprobar_siesta(letra,palabra, esta):
 def jugar():
     informador()
     respuesta = str(input('¿te atreves jugar? s/n '))
-    print(respuesta.lower())
     while respuesta.lower() != 's':
         print('en otra ocasión será')
         break
